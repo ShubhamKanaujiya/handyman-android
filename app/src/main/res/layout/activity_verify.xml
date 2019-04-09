@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP to send to your number"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OTP"
+            android:id="@+id/et_otp"
+            android:maxLength="10"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I haven't recived a code"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        android:onClick="veri"/>
+</LinearLayout>

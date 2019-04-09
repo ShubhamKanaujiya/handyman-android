@@ -1,0 +1,52 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/loginassback"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110sp"
+        android:src="@drawable/handymanlogo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LogIn As..."
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="#47b5a8"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/curve"
+            android:onClick="hlogin"
+            android:text="HandyMan"
+            android:textColor="#87b951"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="30sp"
+            android:background="@drawable/curve"
+            android:onClick="clogin"
+            android:text="Customer"
+            android:textColor="#87b951"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+</LinearLayout>
